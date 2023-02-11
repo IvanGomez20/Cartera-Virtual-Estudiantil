@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+		<link rel="icon" href="images/favicon.png">
+		<title>Cartera Virtual Estudiantil</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/framework7.bundle.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<div id="app">
+			<div class="view view-main view-init" data-url="/">
+				<div class="page page-home page-with-subnavbar">
+					<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+						<div class="toolbar-inner">
+							<a href="#tab-1" class="tab-link tab-link-active">
+								<i class="fa fa-home"></i>
+								<p>Home</p>
+							</a>
+							<a href="#tab-2" class="tab-link">
+								<i class="fas fa-history"></i>
+								<p>Historial</p>
+							</a>
+							<a href="#tab-3" class="tab-link">
+								<i class="fas fa-wallet"></i>
+								<p>Depositar</p>
+							</a>
+							<a href="/livechat/" class="tab-link">
+								<i class="fas fa-comment"></i>
+								<p>Chat</p>
+							</a>
+							<a href="#tab-5" class="tab-link">
+								<i class="fas fa-user"></i>
+								<p>Cuenta</p>
+							</a>
+						</div>
+					</div>
+					
+					<!-- tabs -->
+					<div class="tabs-animated-wrap">
+					<div class="tabs">
+						
+						<!-- tabs 1 -->
+						<div id="tab-1" class="tab tab-active page-content">
+							
+							<!-- title -->
+							<div class="title-apps padding-middle background-primer">
+								<div class="container">
+									<div class="row row-no-margin-bottom">
+										<div class="col">
+											<h3 class="color-white">Cartera Estudiantil</h3>
+										</div>
+										<div class="col">
+											<a href="/notification/">
+												<span class="icon-middle margin-left-small float-right color-white">
+													<i class="fas fa-bell"></i>
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end title -->
+							
+							<!-- profile balance -->
+							<div class="border-radius-style background-circle background-primer">
+								<div class="container">
+									<div class="background-white border-radius padding-box-middle box-shadow">
+										<div class="row row-no-margin-bottom">
+											<div class="col-60">
+												<div class="float-left margin-right-small">
+													<img class="people" src="images/Walter.jpg" alt="">
+												</div>
+												<div class="overflow-hidden">
+													<h6>Ivan Gomez</h6>
+													<p>@Ivanes</p>
+												</div>
+											</div>
+											<div class="col-40">
+												<button class="buttons float-right letter-spacing margin-top-small">$ 10</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end profile balance -->
+							
+							<!-- separator -->
+							<div class="separator"></div>
+							<!-- end separator -->
+							<!-- menus -->
+							<div class="menus">
+								<div class="container">
+									<div class="row">
+										<div class="col">
+											<a href="/withdraw/">
+												<div class="background-white text-center border-radius padding-box box-shadow">
+													<span class="icon-big icon-color-green"><i class="fa fa-arrow-alt-circle-down"></i></span>
+													<h6 class="font-weight-500">Retirar</h6>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a href="/transfer/">
+												<div class="background-white text-center border-radius padding-box box-shadow">
+													<span class="icon-big icon-color-red"><i class="fa fa-redo"></i></span>
+													<h6 class="font-weight-500">Transferir</h6>
+												</div>
+										</div>
+										<div class="col">
+											<a href="/pages/">
+												<div class="background-white text-center border-radius padding-box box-shadow">
+													<span class="icon-big icon-color-lime"><i class="fa fa-bars"></i></span>
+													<h6 class="font-weight-500">All Pages</h6>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end menus -->
+							<!-- separator -->
+							<div class="separator"></div>
+							<!-- end separator -->
+							<!-- separator -->
+							<div class="separator-bottom"></div>
+							<!-- end separator -->
+						</div>
+						<!-- end tabs 1 -->
+						<!-- tabs 2 -->
+						<div id="tab-2" class="tab page-content">
+							<div class="navbar navbar-page">
+								<div class="navbar-inner sliding">
+									<div class="title tabs-text-center">
+										Historial
+									</div>
+								</div>
+							</div>
+							<!-- history -->
+							<div class="history margin-top">
+								<div class="container">
+									<h5 class="margin-bottom-small">Febrero</h5>
+									<div class="background-white box-shadow border-radius padding-box-middle">
+										<div class="float-left margin-right-middle">
+											<span class="icon-big icon-color-green">
+												<i class="fa fa-wallet"></i>
+											</span>
+										</div>
+										<div class="overflow-hidden">
+											<span>10 Febrero 2022</span>
+											<h6 class="margin-bottom-5px">Depositar</h6>
+											<h4>$5</h4>
+										</div>
+									</div>
+									<div class="separator-small"></div>
+									<div class="background-white box-shadow border-radius padding-box-middle">
+										<div class="float-left margin-right-middle">
+										</div>
+									</div>
+									<div class="separator-small"></div>
+									<h5 class="margin-bottom-small">Marzo</h5>
+									<div class="background-white box-shadow border-radius padding-box-middle">
+										<div class="float-left margin-right-middle">
+										</div>
+									</div>
+									<div class="separator-small"></div>
+									<div class="background-white box-shadow border-radius padding-box-middle">
+										<div class="float-left margin-right-middle">
+											<span class="icon-big icon-color-purple">
+												<i class="fa fa-arrow-alt-circle-down"></i>
+											</span>
+										</div>
+										<div class="overflow-hidden">
+											<span>14 Marzo 2022</span>
+											<h6 class="margin-bottom-5px">Retirar</h6>
+											<h4>$10</h4>
+										</div>
+									</div>
+									<div class="separator-small"></div>
+									<div class="background-white box-shadow border-radius padding-box-middle">
+										<div class="float-left margin-right-middle">
+											<span class="icon-big icon-color-red">
+												<i class="fa fa-redo"></i>
+											</span>
+										</div>
+										<div class="overflow-hidden">
+											<span>20 Marzo 2022</span>
+											<h6 class="margin-bottom-5px">Transferido a <span><a href="" class="color-primer">@Ivanes</a></span></h6>
+											<h4>$30</h4>
+										</div>
+									</div>
+									<div class="separator-bottom"></div>
+								</div>
+							</div>
+							<!-- end history -->
+						</div>
+						<!-- end tabs 2 -->
+						<!-- tabs 3 -->
+						<div id="tab-3" class="tab page-content">
+							<div class="navbar navbar-page">
+								<div class="navbar-inner sliding">
+									<div class="title tabs-text-center">
+										Depositar
+									</div>
+								</div>
+							</div>
+							<!-- deposit -->
+							<div class="deposit margin-top">
+								<div class="container">
+									<h5 class="text-center margin-bottom-small">Monto $</h5>
+									<div class="background-white border-radius box-shadow content">
+										<form action="#">
+											<input type="number">
+										</form>
+									</div>
+									<div class="separator-small"></div>
+									<h5 class="text-center margin-bottom-small">Pagar con</h5>
+									<div class="row margin-bottom">
+										<div class="col">
+											<div class="background-white border-radius box-shadow text-center padding-box">
+												<span class="icon-big icon-color-red">
+													<i class="fa fa-university"></i>
+												</span>
+												<h6 class="font-weight-600">Transferencia</h6>
+											</div>
+										</div>
+										<div class="col">
+											<div class="background-white border-radius box-shadow text-center padding-box border-active">
+												<span class="icon-big fa-stack  icon-color-blue">
+													<i class="fab fa-cc-paypal"></i>
+												</span>
+												<h6 class="font-weight-600">Paypal</h6>
+											</div>
+										</div>
+									</div>
+									<button class="buttons buttons-full margin-top-small box-shadow">Process</button>
+								</div>
+							</div>
+							<!-- end deposit -->
+							<div class="separator-bottom"></div>
+						</div>
+						<!-- end tabs 3 -->
+						<!-- tabs 5 -->
+						<div id="tab-5" class="tab page-content">
+							<div class="navbar navbar-page">
+								<div class="navbar-inner sliding">
+									<div class="title tabs-text-center">
+										Cuenta
+									</div>
+								</div>
+							</div>
+							<!-- account -->
+							<div class="list-pages account-list">
+								<div class="background-circle">
+									<div class="container">
+										<div class="background-white border-radius padding-box-middle box-shadow">
+											<div class="row row-no-margin-bottom">
+												<div class="col-60">
+													<div class="float-left margin-right-small">
+														<img class="people" src="images/Walter.jpg" alt="">
+													</div>
+													<div class="overflow-hidden">
+														<h6>Ivan Gomez</h6>
+														<p>@Ivanes</p>
+													</div>
+												</div>
+												<div class="col-40">
+													<button class="buttons float-right letter-spacing margin-top-small">$ 10</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="separator-small"></div>
+								<div class="container">
+									<ul>
+										<li>
+											<a class="border-radius box-shadow" href="/deposit/">
+												<span class="margin-right-small icon-small icon-color-purple"><i class="fa fa-wallet"></i></span> Depositar <span class="float-right"><i class="fa fa-chevron-right"></i></span>
+											</a>
+										</li>
+										<li>
+											<a class="border-radius box-shadow" href="/history/">
+												<span class="margin-right-small icon-small icon-color-red"><i class="fa fa-history"></i></span> Historial <span class="float-right"><i class="fa fa-chevron-right"></i></span>
+											</a>
+										</li>
+										<li>
+											<a class="border-radius box-shadow" href="/notification/">
+												<span class="margin-right-small icon-small icon-color-purple"><i class="fa fa-bell"></i></span> Notificaciones <span class="float-right"><i class="fa fa-chevron-right"></i></span>
+											</a>
+										</li>
+										<li>
+											<a class="border-radius box-shadow" href="/livechat/">
+												<span class="margin-right-small icon-small icon-color-green"><i class="fa fa-comments"></i></span> Chat <span class="float-right"><i class="fa fa-chevron-right"></i></span>
+											</a>
+										</li>
+										<li>
+											<a class="border-radius box-shadow" href="/logout/">
+												<span class="margin-right-small icon-small icon-color-orange"><i class="fa fa-power-off"></i></span> Logout <span class="float-right"><i class="fa fa-chevron-right"></i></span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- end account -->
+							<div class="separator-bottom"></div>
+						</div>
+						<!-- end tabs 5 -->
+					</div>
+					</div>
+					<!-- end tabs -->
+				</div>
+			</div>
+		</div>
+		<!-- script -->
+		<script src="js/framework7.bundle.min.js"></script>
+		<script src="js/routes.js"></script>
+		<script src="js/app.js"></script>
+		<!-- end script -->
+	</body>
+</html>
